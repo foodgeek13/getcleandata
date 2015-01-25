@@ -50,72 +50,71 @@ unitless.
 
 Variable Name	|Type	|Description
 -----------------------------|----------------|---------------------------------------------------------------------------------------
-
-subject	|integer	|ID number of the subject being observed, an integer between one and thirty
-activity |factor	|activity subject was engaged in when measurement was taken, one of: walking, walking_upstairs, walking_downstairs, sitting, standing, laying
-timeBodyAccMeanX|numeric|time domain, mean of the body acceleration signal, X axis
-timeBodyAccMeanY|numeric|time domain, mean of the body acceleration signal, Y axis
-timeBodyAccMeanZ|numeric|time domain, mean of the body acceleration signal, Y axis
-timeGravityAccMeanX|numeric|time domain, mean of the gravity acceleration signal, X axis
-timeGravityAccMeanY|numeric|time domain, mean of the gravity acceleration signal, Y axis
-timeGravityAccMeanZ|numeric|time domain, mean of the gravity acceleration signal, Z axis
-timeBodyAccJerkMeanX|numeric|time domain, mean of the linear acceleration jerk signal, X axis
-timeBodyAccJerkMeanY|numeric|time domain, mean of the linear acceleration jerk signal, Y axis
-timeBodyAccJerkMeanZ|numeric|time domain, mean of the linear acceleration jerk signal, Z axis
-timeBodyGyroMeanX|numeric|time domain, mean of the body gyroscope signal, X axis
-timeBodyGyroMeanY|numeric|time domain, mean of the body gyroscope signal, Y axis
-timeBodyGyroMeanZ|numeric|time domain, mean of the body gyroscope signal, Z axis
-timeBodyGyroJerkMeanX|numeric|time domain, mean of the body gyroscope jerk signal, X axis
-timeBodyGyroJerkMeanY|numeric|time domain, mean of the body gyroscope jerk signal, Y axis
-timeBodyGyroJerkMeanZ|numeric|time domain, mean of the body gyroscope jerk signal, Z axis
-timeBodyAccMagMean|numeric|time domain, magnitude of the mean of the body acceleration signal
-timeGravityAccMagMean|numeric|time domain, magnitude of the mean of the gravity acceleration signal
-timeBodyAccJerkMagMean|numeric|time domain, magnitude of the mean of the linear acceleration jerk signal
-timeBodyGyroMagMean|numeric|time domain, magnitude of the mean of the body gyroscope signal
-timeBodyGyroJerkMagMean|numeric|time domain, magnitude of the mean of the body gyroscope jerk signal
-freqBodyAccMeanX|numeric|frequency domain, mean of the body acceleration signal, X axis
-freqBodyAccMeanY|numeric|frequency domain, mean of the body acceleration signal, Y axis
-freqBodyAccMeanZ|numeric|frequency domain, mean of the body acceleration signal, Z axis
-freqBodyAccJerkMeanX|numeric|frequency domain, mean of the body acceleration jerk signal, X axis
-freqBodyAccJerkMeanY|numeric|frequency domain, mean of the body acceleration jerk signal, Y axis
-freqBodyAccJerkMeanZ|numeric|frequency domain, mean of the body acceleration jerk signal, Z axis
-freqBodyGyroMeanX|numeric|frequency domain, mean of the body gyroscope signal, X axis
-freqBodyGyroMeanY|numeric|frequency domain, mean of the body gyroscope signal, Y axis
-freqBodyGyroMeanZ|numeric|frequency domain, mean of the body gyroscope signal, Z axis
-freqBodyAccMagMean|numeric|frequency domain, magnitude of the mean of the body acceleration signal
-freqBodyAccJerkMagMean|numeric|frequency domain, magnitude of the mean of the body acceleration jerk signal
-freqBodyGyroMagMean|numeric|frequency domain, magnitude of the mean of the body gyroscope signal
-freqBodyGyroJerkMagMean|numeric|frequency domain, magnitude of the mean of the body gyroscope jerk signal
-timeBodyAccStdX|numeric|time domain, standard deviation of the body acceleration signal, X axis
-timeBodyAccStdY|numeric|time domain, standard deviation of the body acceleration signal, Y axis
-timeBodyAccStdZ|numeric|time domain, standard deviation of the body acceleration signal, Z axis
-timeGravityAccStdX|numeric|time domain, standard deviation of the gravity acceleration signal, X axis
-timeGravityAccStdY|numeric|time domain, standard deviation of the gravity acceleration signal, Y axis
-timeGravityAccStdZ|numeric|time domain, standard deviation of the gravity acceleration signal, Z axis
-timeBodyAccJerkStdX|numeric|time domain, standard deviation of the body acceleration jerk signal, X axis
-timeBodyAccJerkStdY|numeric|time domain, standard deviation of the body acceleration jerk signal, Y axis
-timeBodyAccJerkStdZ|numeric|time domain, standard deviation of the body acceleration jerk signal, Z axis
-timeBodyGyroStdX|numeric|time domain, standard deviation of the body gyroscope signal, X axis
-timeBodyGyroStdY|numeric|time domain, standard deviation of the body gyroscope signal, Y axis
-timeBodyGyroStdZ|numeric|time domain, standard deviation of the body gyroscope signal, Z axis
-timeBodyGyroJerkStdX|numeric|time domain, standard deviation of the body gyroscope jerk signal, X axis
-timeBodyGyroJerkStdY|numeric|time domain, standard deviation of the body gyroscope jerk signal, Y axis
-timeBodyGyroJerkStdZ|numeric|time domain, standard deviation of the body gyroscope jerk signal, Z axis
-timeBodyAccMagStd|numeric|time domain, magnitude of the standard deviation of the body acceleration signal
-timeGravityAccMagStd|numeric|time domain, magnitude of the standard deviation of the gravity acceleration signal
-timeBodyAccJerkMagStd|numeric|time domain, magnitude of the standard deviation of the body acceleration jerk signal
-timeBodyGyroMagStd|numeric|time domain, magnitude of the standard deviation of the body gyroscope signal
-timeBodyGyroJerkMagStd|numeric|time domain, magnitude of the standard deviation of the body gyroscope jerk signal
-freqBodyAccStdX|numeric|frequency domain, standard deviation of the body acceleration signal, X axis
-freqBodyAccStdY|numeric|frequency domain, standard deviation of the body acceleration signal, Y axis
-freqBodyAccStdZ|numeric|frequency domain, standard deviation of the body acceleration signal, Z axis
-freqBodyAccJerkStdX|numeric|frequency domain, standard deviation of the body acceleration jerk signal, X axis
-freqBodyAccJerkStdY|numeric|frequency domain, standard deviation of the body acceleration jerk signal, Y axis
-freqBodyAccJerkStdZ|numeric|frequency domain, standard deviation of the body acceleration jerk signal, Z axis
-freqBodyGyroStdX|numeric|frequency domain, standard deviation of the body gyroscope signal, X axis
-freqBodyGyroStdY|numeric|frequency domain, standard deviation of the body gyroscope signal, Y axis
-freqBodyGyroStdZ|numeric|frequency domain, standard deviation of the body gyroscope signal, Z axis
-freqBodyAccMagStd|numeric|frequency domain, magnitude of the standard deviation of the body acceleration signal
-freqBodyAccJerkMagStd|numeric|frequency domain, magnitude of the standard deviation of the body acceleration jerk signal
-freqBodyGyroMagStd|numeric|frequency domain, magnitude of the standard deviation of the body gyroscope signal
-freqBodyGyroJerkMagStd|numeric|frequency domain, magnitude of the standard deviation of the body gyroscope jerk signal
+subject	|	integer	|	ID number of the subject being observed, an integer between one and thirty
+activity |	factor	|	activity subject was engaged in when measurement was taken, one of: walking, walking_upstairs, walking_downstairs, sitting, standing, laying
+timeBodyAccMeanX  |	numeric	|	time domain, mean of the body acceleration signal, X axis
+timeBodyAccMeanY	|	numeric	|	time domain, mean of the body acceleration signal, Y axis
+timeBodyAccMeanZ	|	numeric	|	time domain, mean of the body acceleration signal, Y axis
+timeGravityAccMeanX	|	numeric	|	time domain, mean of the gravity acceleration signal, X axis
+timeGravityAccMeanY	|	numeric	|	time domain, mean of the gravity acceleration signal, Y axis
+timeGravityAccMeanZ	|	numeric	|	time domain, mean of the gravity acceleration signal, Z axis
+timeBodyAccJerkMeanX	|	numeric	|	time domain, mean of the linear acceleration jerk signal, X axis
+timeBodyAccJerkMeanY	|	numeric	|	time domain, mean of the linear acceleration jerk signal, Y axis
+timeBodyAccJerkMeanZ	|	numeric	|	time domain, mean of the linear acceleration jerk signal, Z axis
+timeBodyGyroMeanX	|	numeric	|	time domain, mean of the body gyroscope signal, X axis
+timeBodyGyroMeanY	|	numeric	|	time domain, mean of the body gyroscope signal, Y axis
+timeBodyGyroMeanZ	|	numeric	|	time domain, mean of the body gyroscope signal, Z axis
+timeBodyGyroJerkMeanX	|	numeric	|	time domain, mean of the body gyroscope jerk signal, X axis
+timeBodyGyroJerkMeanY	|	numeric	|	time domain, mean of the body gyroscope jerk signal, Y axis
+timeBodyGyroJerkMeanZ	|	numeric	|	time domain, mean of the body gyroscope jerk signal, Z axis
+timeBodyAccMagMean	|	numeric	|	time domain, magnitude of the mean of the body acceleration signal
+timeGravityAccMagMean	|	numeric	|	time domain, magnitude of the mean of the gravity acceleration signal
+timeBodyAccJerkMagMean	|	numeric	|	time domain, magnitude of the mean of the linear acceleration jerk signal
+timeBodyGyroMagMean	|	numeric	|	time domain, magnitude of the mean of the body gyroscope signal
+timeBodyGyroJerkMagMean	|	numeric	|	time domain, magnitude of the mean of the body gyroscope jerk signal
+freqBodyAccMeanX	|	numeric	|	frequency domain, mean of the body acceleration signal, X axis
+freqBodyAccMeanY	|	numeric	|	frequency domain, mean of the body acceleration signal, Y axis
+freqBodyAccMeanZ	|	numeric	|	frequency domain, mean of the body acceleration signal, Z axis
+freqBodyAccJerkMeanX	|	numeric	|	frequency domain, mean of the body acceleration jerk signal, X axis
+freqBodyAccJerkMeanY	|	numeric	|	frequency domain, mean of the body acceleration jerk signal, Y axis
+freqBodyAccJerkMeanZ	|	numeric	|	frequency domain, mean of the body acceleration jerk signal, Z axis
+freqBodyGyroMeanX	|	numeric	|	frequency domain, mean of the body gyroscope signal, X axis
+freqBodyGyroMeanY	|	numeric	|	frequency domain, mean of the body gyroscope signal, Y axis
+freqBodyGyroMeanZ	|	numeric	|	frequency domain, mean of the body gyroscope signal, Z axis
+freqBodyAccMagMean	|	numeric	|	frequency domain, magnitude of the mean of the body acceleration signal
+freqBodyAccJerkMagMean	|	numeric	|	frequency domain, magnitude of the mean of the body acceleration jerk signal
+freqBodyGyroMagMean	|	numeric	|	frequency domain, magnitude of the mean of the body gyroscope signal
+freqBodyGyroJerkMagMean	|	numeric	|	frequency domain, magnitude of the mean of the body gyroscope jerk signal
+timeBodyAccStdX	|	numeric	|	time domain, standard deviation of the body acceleration signal, X axis
+timeBodyAccStdY	|	numeric	|	time domain, standard deviation of the body acceleration signal, Y axis
+timeBodyAccStdZ	|	numeric	|	time domain, standard deviation of the body acceleration signal, Z axis
+timeGravityAccStdX	|	numeric	|	time domain, standard deviation of the gravity acceleration signal, X axis
+timeGravityAccStdY	|	numeric	|	time domain, standard deviation of the gravity acceleration signal, Y axis
+timeGravityAccStdZ	|	numeric	|	time domain, standard deviation of the gravity acceleration signal, Z axis
+timeBodyAccJerkStdX	|	numeric	|	time domain, standard deviation of the body acceleration jerk signal, X axis
+timeBodyAccJerkStdY	|	numeric	|	time domain, standard deviation of the body acceleration jerk signal, Y axis
+timeBodyAccJerkStdZ	|	numeric	|	time domain, standard deviation of the body acceleration jerk signal, Z axis
+timeBodyGyroStdX	|	numeric	|	time domain, standard deviation of the body gyroscope signal, X axis
+timeBodyGyroStdY	|	numeric	|	time domain, standard deviation of the body gyroscope signal, Y axis
+timeBodyGyroStdZ	|	numeric	|	time domain, standard deviation of the body gyroscope signal, Z axis
+timeBodyGyroJerkStdX	|	numeric	|	time domain, standard deviation of the body gyroscope jerk signal, X axis
+timeBodyGyroJerkStdY	|	numeric	|	time domain, standard deviation of the body gyroscope jerk signal, Y axis
+timeBodyGyroJerkStdZ	|	numeric	|	time domain, standard deviation of the body gyroscope jerk signal, Z axis
+timeBodyAccMagStd	|	numeric	|	time domain, magnitude of the standard deviation of the body acceleration signal
+timeGravityAccMagStd	|	numeric	|	time domain, magnitude of the standard deviation of the gravity acceleration signal
+timeBodyAccJerkMagStd	|	numeric	|	time domain, magnitude of the standard deviation of the body acceleration jerk signal
+timeBodyGyroMagStd	|	numeric	|	time domain, magnitude of the standard deviation of the body gyroscope signal
+timeBodyGyroJerkMagStd	|	numeric	|	time domain, magnitude of the standard deviation of the body gyroscope jerk signal
+freqBodyAccStdX	|	numeric	|	frequency domain, standard deviation of the body acceleration signal, X axis
+freqBodyAccStdY	|	numeric	|	frequency domain, standard deviation of the body acceleration signal, Y axis
+freqBodyAccStdZ	|	numeric	|	frequency domain, standard deviation of the body acceleration signal, Z axis
+freqBodyAccJerkStdX	|	numeric	|	frequency domain, standard deviation of the body acceleration jerk signal, X axis
+freqBodyAccJerkStdY	|	numeric	|	frequency domain, standard deviation of the body acceleration jerk signal, Y axis
+freqBodyAccJerkStdZ	|	numeric	|	frequency domain, standard deviation of the body acceleration jerk signal, Z axis
+freqBodyGyroStdX	|	numeric	|	frequency domain, standard deviation of the body gyroscope signal, X axis
+freqBodyGyroStdY	|	numeric	|	frequency domain, standard deviation of the body gyroscope signal, Y axis
+freqBodyGyroStdZ	|	numeric	|	frequency domain, standard deviation of the body gyroscope signal, Z axis
+freqBodyAccMagStd	|	numeric	|	frequency domain, magnitude of the standard deviation of the body acceleration signal
+freqBodyAccJerkMagStd	|	numeric	|	frequency domain, magnitude of the standard deviation of the body acceleration jerk signal
+freqBodyGyroMagStd	|	numeric	|	frequency domain, magnitude of the standard deviation of the body gyroscope signal
+freqBodyGyroJerkMagStd	|	numeric	|	frequency domain, magnitude of the standard deviation of the body gyroscope jerk signal
